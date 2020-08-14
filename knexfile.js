@@ -1,4 +1,4 @@
-const db = require('.env')
+const db = process.env.DATABASE_URL
 
 module.exports = {
     client: 'postgresql',

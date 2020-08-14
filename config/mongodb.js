@@ -1,4 +1,4 @@
-const MongoDB_URL  = process.env.MongoDB_URL || require('../.env')
+const MongoDB_URL  = process.env.MongoDB_URL
 
 const mongoose = require('mongoose')
 mongoose.connect(MongoDB_URL, {
